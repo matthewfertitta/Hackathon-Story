@@ -34,8 +34,8 @@ public class GUI2 extends JFrame implements ActionListener {
 
     public GUI2() throws InterruptedException, IOException {
         // frame init
-        BufferedImage img = ImageIO.read(new File("src\\Mr. Button.png"));
-        this.setIconImage(img);
+        //BufferedImage img = ImageIO.read(new File("src\\Mr. Button.png"));
+        //this.setIconImage(img);
         this.setTitle(weirdNames[(int)(Math.random() * (weirdNames.length))]);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
@@ -112,8 +112,8 @@ public class GUI2 extends JFrame implements ActionListener {
 
     public GUI2(int xPos, int yPos) throws InterruptedException, IOException {
         // frame init
-        BufferedImage img = ImageIO.read(new File("src\\Mr. Button.png"));
-        this.setIconImage(img);
+        //BufferedImage img = ImageIO.read(new File("src\\Mr. Button.png"));
+        //this.setIconImage(img);
         this.setTitle(weirdNames[(int)(Math.random() * (weirdNames.length))]);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();

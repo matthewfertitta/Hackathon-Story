@@ -25,8 +25,8 @@ public class GUI extends JFrame implements ActionListener {
 
     public GUI() throws IOException {
         // frame init
-        BufferedImage img = ImageIO.read(new File("src\\Mr. Button.png"));
-        this.setIconImage(img);
+        //BufferedImage img = ImageIO.read(new File("src\\Mr. Button.png"));
+        //this.setIconImage(img);
         this.setTitle("Mr. Button");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
@@ -71,8 +71,10 @@ public class GUI extends JFrame implements ActionListener {
         panel.updateUI();
     }
 
-    public GUI(int x, int y) {
+    public GUI(int x, int y) throws IOException {
         // frame init
+        //BufferedImage img = ImageIO.read(new File("src\\Mr. Button.png"));
+        //this.setIconImage(img);
         this.setTitle("Mr. Button");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
